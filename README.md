@@ -32,7 +32,7 @@ Make sure you have the following requirements:
 
 ### Projection
 
-### Multi-level Thresholding
+### Multi level Thresholding
 
 ## Any problems?
 
