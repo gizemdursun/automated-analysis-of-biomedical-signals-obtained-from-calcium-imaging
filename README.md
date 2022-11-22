@@ -1,7 +1,7 @@
 # automated-analysis-of-biomedical-signals-obtained-from-calcium-imaging
 
-# Combined segmentation and classification-based approach to automated analysis of biomedical signals obtained from calcium imaging, 
-# Gizem Dursun, Dunja Bijelić, Nese Aysit, Burcu Kurt Vatandaslar, Lidija Radenović, Abdulkerim Çapar, Bilal Ersen Kerman, Pavle R. Andjus, Andrej Korenić, Ufuk Özkaya
+Combined segmentation and classification-based approach to automated analysis of biomedical signals obtained from calcium imaging, 
+Gizem Dursun, Dunja Bijelić, Nese Aysit, Burcu Kurt Vatandaslar, Lidija Radenović, Abdulkerim Çapar, Bilal Ersen Kerman, Pavle R. Andjus, Andrej Korenić, Ufuk Özkaya
 
 MATLAB implementation of a segmentation and classification-based approach for assembling an automated screening system for the analysis of calcium imaging. 
 
