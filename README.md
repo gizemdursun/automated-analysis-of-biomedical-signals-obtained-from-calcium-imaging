@@ -23,7 +23,7 @@ image was generated from extracted traces and used for assessing classification 
 	
 ## Prerequisites
 
-Make sure you have the minimum following requirements:
+Make sure you have the following requirements:
 
 - MATLAB R2022a
 - Statistics and Machine Learning Toolbox
