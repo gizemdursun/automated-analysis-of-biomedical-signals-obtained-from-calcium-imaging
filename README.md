@@ -17,7 +17,7 @@ image was generated from extracted traces and used for assessing classification 
 - [Getting started](#getting-started)
     - [Installation](#installation)
     - [Projection](#projection)
-    - [Generating images](#generating-images)
+    - [Multi-level Thresholding](#Multi-level-thresholding)
 - [Any problems?](#any-problems)
 - [Finally](#finally)
 	
