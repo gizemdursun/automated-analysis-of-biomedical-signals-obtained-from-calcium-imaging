@@ -25,7 +25,7 @@ image was generated from extracted traces and used for assessing classification 
 
 Make sure you have the following requirements:
 
-- MATLAB R2022a
+- MATLAB (we used Version of 2022a.)
 - Statistics and Machine Learning Toolbox
 
 ## Getting Started
