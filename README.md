@@ -1,7 +1,7 @@
 # automated-analysis-of-biomedical-signals-obtained-from-calcium-imaging
 
-Combined segmentation and classification-based approach to automated analysis of biomedical signals obtained from calcium imaging, 
-Gizem Dursun, Dunja Bijelić, Nese Aysit, Burcu Kurt Vatandaslar, Lidija Radenović, Abdulkerim Çapar, Bilal Ersen Kerman, Pavle R. Andjus, Andrej Korenić, Ufuk Özkaya,2022.
+## Combined segmentation and classification-based approach to automated analysis of biomedical signals obtained from calcium imaging 
+#### Gizem Dursun, Dunja Bijelić, Nese Aysit, Burcu Kurt Vatandaslar, Lidija Radenović, Abdulkerim Çapar, Bilal Ersen Kerman, Pavle R. Andjus, Andrej Korenić, Ufuk Özkaya, 2022.
 
 This repository contains MATLAB code to implement a segmentation and classification-based approach for assembling an automated screening system for the analysis of calcium imaging. 
 
@@ -13,7 +13,22 @@ image was generated from extracted traces and used for assessing classification 
 
 # Setup
 
-	. Prerequisites
-	. Getting Started
-		. 
+- [Prerequisites](#Prerequisites)
+- [Getting started](#getting-started)
+    - [Installation](#installation)
+    - [Projection](#projection)
+    - [Generating images](#generating-images)
+- [Any problems?](#any-problems)
+- [Finally](#finally)
 	
+## Prerequisites
+
+Make sure you have the minimum following requirements:
+
+- MATLAB R2022a
+- Statistics and Machine Learning Toolbox
+
+## Getting Started
+
+### Installation
+
