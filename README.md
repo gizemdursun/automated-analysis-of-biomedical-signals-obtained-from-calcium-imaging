@@ -30,8 +30,18 @@ Make sure you have the following requirements:
 
 ### Installation
 
+To load the calcium imaging video and the .zip file belong to video's ground truth data, run the function `install.m` to ensure that all required files are added to the MATLAB path.
+
+```matlab
+install();
+```
 ### Projection
 
+To convert video to image, run the function `projection.m`
+
+```matlab
+projection();
+```
 ### Multi level Thresholding
 
 ## Any problems?
@@ -40,4 +50,4 @@ If you have any trouble using this code, report any bugs, or want to request a f
 
 ## Finally
 
-This repository uses 33 calcium imaging videos.
+This repository uses 33 calcium imaging videos. ????
