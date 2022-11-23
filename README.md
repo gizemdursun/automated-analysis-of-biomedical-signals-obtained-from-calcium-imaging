@@ -28,6 +28,8 @@ Make sure you have the following requirements:
 
 ## Getting Started
 
+Ensure that all required files are added to the MATLAB path and run the function `main.m`
+
 ### Installation
 
 To load the calcium imaging video and the .zip file belong to video's ground truth data, run the function `install.m` to ensure that all required files are added to the MATLAB path.
