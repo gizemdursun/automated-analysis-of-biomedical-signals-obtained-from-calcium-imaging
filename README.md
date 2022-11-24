@@ -62,7 +62,7 @@ This code is used for preparation of classification data. In our work, we used 3
 [PixDataTrain,PixDataTest] = prepClassData(MethodStr);
 ```
 
-This repository contains only one example of calcium imaging video. Therefore, we share `PixDataTrain.mat` and `PixDataTest.mat` files obtained from 33 calcium imaging video using with maximum intensity projection. If you implement the classification process, you have to load these files.
+This repository contains only one example of calcium imaging video. Therefore, we share `PixDataTrain.mat` and `PixDataTest.mat` files obtained from 33 calcium imaging video using with maximum intensity projection. If you want to implement the classification process, you have to load these files.
 
 ```matlab
 load('PixDataTrain.mat')
