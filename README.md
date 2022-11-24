@@ -9,6 +9,7 @@ This repository contains MATLAB code to implement a segmentation and classificat
     - [Multi-level Thresholding](#Multi-level-Thresholding)
     - [Feature Image Generation](#Feature-Image-Generation)
     - [Preparation of Classification Data](#Preparation-of-Classification-Data)
+    - [Classification](#Classification)
 - [Any problems?](#any-problems)
 - [Finally](#finally)
 	
@@ -55,7 +56,39 @@ createfeatimg();
 
 ### Preparation of Classification Data
 
-This code is used for preparation of classification data. In our work, we used 33 calcium imaging videos and generated `PixDataTrain` and `PixDataTest` to use for training and testing step of classification. 
+This code is used for preparation of classification data. In our work, we used 33 calcium imaging videos and generated `PixDataTrain` and `PixDataTest` to use for training and testing step of classification. You can find the code of this process:
+
+```matlab
+[PixDataTrain,PixDataTest] = prepClassData(MethodStr);
+```
+
+This repository contains only one example of calcium imaging video. Therefore, we share `PixDataTrain.mat` and `PixDataTest.mat` files obtained from 33 calcium imaging video using with maximum intensity projection. If you implement the classification process, you have to load these files.
+
+```matlab
+load('PixDataTrain.mat')
+load('PixDataTrest.mat')
+```
+
+### Classification
+
+To classify the training data, run `classificationLearner` app in the Statistics and Machine Learning Toolbox on MATLAB. If you want to open this app, you can click the app icon on the Apps tab under Machine Learning or you can write classificationLearner on MATLAB command prompt.
+
+```matlab
+classificationLearner
+```
+
+After open the app, you can click the new session for selecting the training data.
+
+Table 1. Classification Methods
+Support Vector Machines	k- Nearest Neighbors 	Ensemble	Decision Trees
+Linear SVM	Fine k-NN	Boasted Trees 	Fine Tree
+Quadratic SVM	Medium k-NN	Bagged Trees 	Medium Tree
+Cubic SVM	Coarse k-NN	Subspace Discriminant	Coarse Tree
+Fine Gaussian SVM	Cosine k-NN	Subspace k-NN	
+Medium Gaussian SVM	Cubic k-NN	RUSBoosted Trees	
+Coarse Gaussian SVM	Weighted k-NN		
+
+
 
 ## Any problems?
 
