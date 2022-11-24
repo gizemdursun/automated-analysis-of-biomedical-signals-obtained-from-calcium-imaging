@@ -17,6 +17,7 @@ Procedure steps of the proposed approach are shown in below. The entire Ca2+ tim
     - [Installation](#installation)
     - [Projection](#projection)
     - [Multi-level Thresholding](#Multi-level-Thresholding)
+    - [Feature Image Generation](#Feature-Image-Generation)
 - [Any problems?](#any-problems)
 - [Finally](#finally)
 	
@@ -53,6 +54,7 @@ The segmentation step we will describe here is applied to the images generated b
 mlt();
 calcmetrics();
 ```
+### Feature Image Generation
 
 ## Any problems?
 
@@ -60,4 +62,4 @@ If you have any trouble using this code, report any bugs, or want to request a f
 
 ## Finally
 
-This repository uses 33 calcium imaging videos. ????
+This repository is an implementation of our paper. We use 33 (21 ALS & 12 CTRL) calcium imaging videos. All results are submitted.
