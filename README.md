@@ -77,7 +77,7 @@ To classify the training data, run `classificationLearner` app in the Statistics
 classificationLearner
 ```
 
-After open the app, you can click the new session for selecting the training data. Upload the PixDataTrain.mat and start the session. In this app, you can find different classifiers. Choose the classifiers and click the train all icon. At the end of train step, you can import the PixDataTest.mat as a test data and click the test all icon.
+After opening the app, you can click the new session for selecting the training data. Upload the PixDataTrain.mat and start the session. In this app, you can find different classifiers. Choose the classifiers and click the train all icon. At the end of train step, you can import the PixDataTest.mat as a test data and click the test all icon.
 
 ## Any problems?
 
