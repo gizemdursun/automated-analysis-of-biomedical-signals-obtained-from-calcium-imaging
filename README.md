@@ -81,7 +81,7 @@ After opening the app, you can click the new session for selecting the training 
 
 ## Any problems?
 
-If you have any trouble using this code, report any bugs, or want to request a feature please use the [GitHub issues](https://github.com/gizemdursun/automated-analysis-of-biomedical-signals-obtained-from-calcium-imaging/issues).
+If you have any trouble using this code, report any bugs please use the [GitHub issues](https://github.com/gizemdursun/automated-analysis-of-biomedical-signals-obtained-from-calcium-imaging/issues).
 
 ## Finally
 
