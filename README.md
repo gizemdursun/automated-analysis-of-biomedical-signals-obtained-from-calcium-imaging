@@ -48,6 +48,10 @@ calcmetrics();
 
 In this part of repository, feature images are created for classification for assembling an automated screening system for the analysis of calcium imaging. Feature images are created from a segmented image obtained after applying MLT. 
 
+```matlab
+createfeatimg();
+```
+
 ## Any problems?
 
 If you have any trouble using this code, report any bugs, or want to request a feature please use the [GitHub issues](https://github.com/gizemdursun/automated-analysis-of-biomedical-signals-obtained-from-calcium-imaging/issues).
