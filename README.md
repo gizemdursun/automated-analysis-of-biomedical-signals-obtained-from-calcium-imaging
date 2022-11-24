@@ -85,4 +85,4 @@ If you have any trouble using this code, report any bugs, or want to request a f
 
 ## Finally
 
-This repository is an example implementation of our paper. In our work, we use totally 33 (21 ALS & 12 CTRL) calcium imaging videos. All results are submitted. This repository 
+This repository is an example implementation using one calcium imaging video. In our work, we use totally 33 (21 ALS & 12 CTRL) calcium imaging videos. All results are already published.  
