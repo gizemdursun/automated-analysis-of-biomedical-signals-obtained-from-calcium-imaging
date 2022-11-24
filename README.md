@@ -8,6 +8,7 @@ This repository contains MATLAB code to implement a segmentation and classificat
     - [Projection](#projection)
     - [Multi-level Thresholding](#Multi-level-Thresholding)
     - [Feature Image Generation](#Feature-Image-Generation)
+    - [Preparation of Classification Data](#Preparation-of-Classification-Data)
 - [Any problems?](#any-problems)
 - [Finally](#finally)
 	
@@ -51,6 +52,10 @@ In this part of repository, feature images are created for classification for as
 ```matlab
 createfeatimg();
 ```
+
+### Preparation of Classification Data
+
+This code is used for preparation of classification data. In our work, we used 33 calcium imaging videos and generated `PixDataTrain` and `PixDataTest` to use for training and testing step of classification. 
 
 ## Any problems?
 
