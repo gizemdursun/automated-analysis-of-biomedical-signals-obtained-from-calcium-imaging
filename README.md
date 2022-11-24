@@ -24,7 +24,7 @@ Ensure that all required files are added to the MATLAB path and run the function
 
 ### Installation
 
-To load the calcium imaging video and the .zip file belong to video's ground truth data, run the function `install.m` to ensure that all required files are added to the MATLAB path. We use free software named `ReadImageJROI.m` written by Dylan Muir in this part for reading ImageJ binary ROI file format.
+To load the calcium imaging video and the .zip file belong to video's ground truth data, run the function `install.m` to ensure that all required files are added to the MATLAB path. We use free softwares named as `ReadImageJROI.m` and `tiffread2.m` written by `Dylan Muir` and `Francois Nedelec` in this part for reading ImageJ binary ROI file format and converting .stk files to .tiff video frames, respectively. We use these video frames for creating the video data.
 
 ```matlab
 install();
