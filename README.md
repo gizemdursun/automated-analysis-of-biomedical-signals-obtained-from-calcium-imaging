@@ -24,7 +24,7 @@ Ensure that all required files are added to the MATLAB path and run the function
 
 ### Installation
 
-To load the calcium imaging video and the .zip file belong to video's ground truth data, run the function `install.m` to ensure that all required files are added to the MATLAB path.
+To load the calcium imaging video and the .zip file belong to video's ground truth data, run the function `install.m` to ensure that all required files are added to the MATLAB path. We use free software named `ReadImageJROI.m` written by Dylan Muir in this part for reading ImageJ binary ROI file format.
 
 ```matlab
 install();
@@ -45,6 +45,8 @@ mlt();
 calcmetrics();
 ```
 ### Feature Image Generation
+
+In this part of repository, feature images are created for classification for assembling an automated screening system for the analysis of calcium imaging. Feature images are created from a segmented image obtained after applying MLT. 
 
 ## Any problems?
 
