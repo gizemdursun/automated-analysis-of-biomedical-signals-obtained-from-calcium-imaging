@@ -77,16 +77,7 @@ To classify the training data, run `classificationLearner` app in the Statistics
 classificationLearner
 ```
 
-After open the app, you can click the new session for selecting the training data.
-
-Table 1. Classification Methods
-Support Vector Machines	k- Nearest Neighbors 	Ensemble	Decision Trees
-Linear SVM	Fine k-NN	Boasted Trees 	Fine Tree
-Quadratic SVM	Medium k-NN	Bagged Trees 	Medium Tree
-Cubic SVM	Coarse k-NN	Subspace Discriminant	Coarse Tree
-Fine Gaussian SVM	Cosine k-NN	Subspace k-NN	
-Medium Gaussian SVM	Cubic k-NN	RUSBoosted Trees	
-Coarse Gaussian SVM	Weighted k-NN		
+After open the app, you can click the new session for selecting the training data. Upload the PixDataTrain.mat and start the session. In this app, you can find different classifiers. Choose the classifiers and click the train all icon. 
 
 
 
