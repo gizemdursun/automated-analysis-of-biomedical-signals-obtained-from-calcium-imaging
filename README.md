@@ -1,6 +1,6 @@
 # automated-analysis-of-biomedical-signals-obtained-from-calcium-imaging
 ## Combined segmentation and classification-based approach to automated analysis of biomedical signals obtained from calcium imaging
-### [DOI] (https://doi.org/10.1371/journal.pone.0281236)
+##### [DOI] (https://doi.org/10.1371/journal.pone.0281236)
 ###### Gizem Dursun, Dunja Bijelić, Nese Aysit, Burcu Kurt Vatandaslar, Lidija Radenović, Abdulkerim Çapar, Bilal Ersen Kerman, Pavle R. Andjus, Andrej Korenić, Ufuk Özkaya, 2022.
 ###### H2020-MSCA-RISE-2017 Automated Functional Screening of IgGs for Diagnostics of Neurodegenerative Diseases (AUTOIGG) project
 
